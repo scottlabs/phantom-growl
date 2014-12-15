@@ -1,14 +1,24 @@
 {
-  "name": "growl",
-  "version": "1.8.1",
-  "description": "Growl unobtrusive notifications",
-  "author": "TJ Holowaychuk <tj@vision-media.ca>",
-  "maintainers": [
-    "Joshua Appelman <joshua@jbnicolai.nl>"
+  "name": "phantom-growl",
+  "version": "0.0.2",
+  "description": "Growl for PhantomJS",
+  "keywords": [
+      "growl",
+      "phantom",
+      "phantomjs"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/visionmedia/node-growl.git"
+    "url": "git://github.com/scottlabs/phantom-growl.git"
   },
-  "main": "./lib/growl.js"
+  "main": "./lib/growl.js",
+  "bugs": {
+    "url": "https://github.com/scottlabs/phantom-growl/issues"
+  },
+  "homepage": "https://github.com/scottlabs/phantom-growl",
+  "scripts": {
+    "test": "phantomjs test.js"
+  },
+  "author": "Kevin Scott",
+  "license": "ISC"
 }
